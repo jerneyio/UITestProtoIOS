@@ -8,6 +8,8 @@
 
 import XCTest
 
+import Hydra
+
 class UITestProtoUITests: XCTestCase {
 
     override func setUp() {

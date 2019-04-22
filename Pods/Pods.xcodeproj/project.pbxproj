@@ -1,0 +1,1055 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		014F5871171812774B581DC833F9F330 /* Promise+Reduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FD8C0C9B0CEA400BE0FABBC2F0C548 /* Promise+Reduce.swift */; };
+		05AC3EE77B649E57ED37198D8A83629F /* Promise+Timeout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A6C10CEC12BABDD6A04F439A5A8BF4 /* Promise+Timeout.swift */; };
+		05B1F3163FE5EE4CC8056356D0BF11F3 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE81AEA2A828EFC9C16443E1528A764 /* Context.swift */; };
+		0DC1CB9F0755C2A1D6911DF17C3A6E36 /* Promise+Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CDB8FC58E5D34D89C0C1D4EF7F63A9 /* Promise+Async.swift */; };
+		155B5F881B82FD59C21A8ACEB20E373B /* Pods-UITestProtoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCB330F5210D33969A913A038C9ECFF7 /* Pods-UITestProtoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15912A7A6689901C7F507D1B4BBD4CE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		1951EDBB4A7AC0CD3A14738A47573206 /* Promise+State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350E0ADB1057528121FCA7F172DE596F /* Promise+State.swift */; };
+		1D3BDB4892A4B9B6C76277EE0C71BA46 /* Promise+Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DB8DB82BB6F2335E09F3B87193F3A0 /* Promise+Then.swift */; };
+		2621F38FD941D198E8262AA01ACFAA1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		268B68E43C4F8B9D4BE9614BBC663788 /* Promise+Cancel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE049663A33EFB60DD355FAC8F16E80 /* Promise+Cancel.swift */; };
+		2EBCE5F3E6CE004E28EAF2977546B875 /* HydraAsync-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E0763E7B788B742BCB3868CFD0914C /* HydraAsync-dummy.m */; };
+		3698E52693003FF0001979DFE0333434 /* Promise+Zip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831C7A7B5B1DA7847705EE60732C7684 /* Promise+Zip.swift */; };
+		3849348A3D0C632B4A034EA04A187B07 /* Pods-UITestProtoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB33DDA65DCA3288A8C29D6560D616DE /* Pods-UITestProtoTests-dummy.m */; };
+		5DB6872BC0543E625C7F223E5FB6F165 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		60B7CD1F792C11E1D47E7A5CEE3C9627 /* Promise+RetryWhen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49369C4A6DBF0904F7C430DD35FF436E /* Promise+RetryWhen.swift */; };
+		62B7A7869032172C259707B3A57C4DEE /* Promise+Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD278F45C4C9ADD47D2701F236AC0106 /* Promise+Observer.swift */; };
+		659121898B66A59135D9E8B7FB1CDDA3 /* Promise+Pass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211D40B16B14D53C7A8D1C826FDB1FA3 /* Promise+Pass.swift */; };
+		65F3B6D6557631E953AE2A46EAA84A9F /* Pods-UITestProto-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADEFC396D1193C7CFDA0E800FEF6A4C8 /* Pods-UITestProto-dummy.m */; };
+		68796E917E660BA8AA9CA9F810AFC3DD /* Promise+Any.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E0CFCE6276630240EE07A92B8B4E64 /* Promise+Any.swift */; };
+		7742F0552842375A7A47EE7B617A242A /* Pods-UITestProto-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D009912C34D4D776D9B377FCC6313B1F /* Pods-UITestProto-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DF538DFC95CCF5E0B56AC5E3BBE6CEC /* Promise+All.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6278AA035BF743D509514067A644E9 /* Promise+All.swift */; };
+		82AA1724E2BCA7AB6F3FB43954FA3450 /* Promise+Await.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1417A6EAA27B2AC5654B830C7C830CD0 /* Promise+Await.swift */; };
+		9359B1E1D5065AD3CAB3605E8C472358 /* Promise+Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C065DEE5F80B55AA74DF40D032267F /* Promise+Map.swift */; };
+		B15071810DC150F3175846108AB3B40B /* Promise+Retry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F906D8DFD574F3F730CFDCF1391F12 /* Promise+Retry.swift */; };
+		B21B2BEA5756263CBCFE2ECBD67D978C /* Promise+Validate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631D326CD5BBB09906564CE13353247B /* Promise+Validate.swift */; };
+		B325CC97626BDB353137EA8DC23AC4F2 /* Promise+Catch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB866C9ED9F3AD7A85A3040495C3E2F2 /* Promise+Catch.swift */; };
+		B386B8415D22DE2F8E4C83ECA4099DB8 /* Pods-UITestProtoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6340F78D43EB6B15BF44C0E666D57F6 /* Pods-UITestProtoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B777C92DB147644B573CA275F0215CFE /* Promise+Defer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0359694837DD7A30D944E6FF0580A238 /* Promise+Defer.swift */; };
+		BECC37B16E40EEFD361D6A124A42DC98 /* Commons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52C5DE785FCCF1AADCCAF09AB318B1C /* Commons.swift */; };
+		C09F5684693B18506338560144942897 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		EC2C03CA64C4050B8FE9A68DF6DC3685 /* Promise+Recover.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC87FD4C2B27966295286278E8F5945E /* Promise+Recover.swift */; };
+		F0405BB5655BAB68047A3F438D59848B /* Promise+Always.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B3B81AC7D6490BF098B15CD9C3AFC9 /* Promise+Always.swift */; };
+		F7AF730B29A5833AC785E88579EEBC2F /* Pods-UITestProtoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8488041745E2FC5AFEAE152DC53904E1 /* Pods-UITestProtoUITests-dummy.m */; };
+		F7DBD336C13F357213C33168FC0207FC /* HydraAsync-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 675474EE2882968E4852E9A560D4E6AF /* HydraAsync-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F84F770A93BF99172593ED784F59A722 /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2ED6839C9EF2577F117BB0CF1E21DA /* Promise.swift */; };
+		FA8516189E10098F3727283D21CD4FCF /* DispatchTimerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA5120A322F68BCB8E8C8D992E656F9 /* DispatchTimerWrapper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2729F3139DA0464785B3E6DBE6F69233 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 428D854B9D22B69B90D582FA2504C4AE;
+			remoteInfo = "Pods-UITestProto";
+		};
+		3B1DF4D65E923CCD8699EB6882325A94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 428D854B9D22B69B90D582FA2504C4AE;
+			remoteInfo = "Pods-UITestProto";
+		};
+		B719EB1915A39C7B6E4D835900A6AFA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29675FBD3E319BE023F30A728EBE1C7C;
+			remoteInfo = HydraAsync;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002DB452B699817972536CF6FAB1A5B6 /* Pods_UITestProtoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UITestProtoUITests.framework; path = "Pods-UITestProtoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00F906D8DFD574F3F730CFDCF1391F12 /* Promise+Retry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Retry.swift"; path = "Sources/Hydra/Promise+Retry.swift"; sourceTree = "<group>"; };
+		0359694837DD7A30D944E6FF0580A238 /* Promise+Defer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Defer.swift"; path = "Sources/Hydra/Promise+Defer.swift"; sourceTree = "<group>"; };
+		04080B9136B8BCE0F71D0F802AEDA457 /* Pods-UITestProtoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UITestProtoTests.modulemap"; sourceTree = "<group>"; };
+		0820310A50353A1E52DB1E4E0C44526C /* Pods-UITestProtoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UITestProtoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0B6278AA035BF743D509514067A644E9 /* Promise+All.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+All.swift"; path = "Sources/Hydra/Promise+All.swift"; sourceTree = "<group>"; };
+		11C0C82A614487E809EF13B9086EDC0D /* Pods-UITestProtoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UITestProtoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		12F1C0B8268BC8792A450EB0808D1DF7 /* HydraAsync-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HydraAsync-prefix.pch"; sourceTree = "<group>"; };
+		1417A6EAA27B2AC5654B830C7C830CD0 /* Promise+Await.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Await.swift"; path = "Sources/Hydra/Promise+Await.swift"; sourceTree = "<group>"; };
+		1D726241B02E595D849721C4F0DACC65 /* HydraAsync.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HydraAsync.modulemap; sourceTree = "<group>"; };
+		210AFDA9DE27BFB82E856D0F3FEA5E49 /* Pods-UITestProtoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UITestProtoTests-Info.plist"; sourceTree = "<group>"; };
+		211D40B16B14D53C7A8D1C826FDB1FA3 /* Promise+Pass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Pass.swift"; path = "Sources/Hydra/Promise+Pass.swift"; sourceTree = "<group>"; };
+		21A6C10CEC12BABDD6A04F439A5A8BF4 /* Promise+Timeout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Timeout.swift"; path = "Sources/Hydra/Promise+Timeout.swift"; sourceTree = "<group>"; };
+		2A95DC5312B5C82CCD3DBCCD822F89FF /* Pods-UITestProtoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UITestProtoTests.release.xcconfig"; sourceTree = "<group>"; };
+		34F806635FE4D56C76760071473F3620 /* Pods-UITestProto.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UITestProto.modulemap"; sourceTree = "<group>"; };
+		350E0ADB1057528121FCA7F172DE596F /* Promise+State.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+State.swift"; path = "Sources/Hydra/Promise+State.swift"; sourceTree = "<group>"; };
+		3E4B8FB5F459BE7BAEDC15028027E2CD /* Pods-UITestProto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UITestProto.debug.xcconfig"; sourceTree = "<group>"; };
+		3EE81AEA2A828EFC9C16443E1528A764 /* Context.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Context.swift; path = Sources/Hydra/Context.swift; sourceTree = "<group>"; };
+		49369C4A6DBF0904F7C430DD35FF436E /* Promise+RetryWhen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+RetryWhen.swift"; path = "Sources/Hydra/Promise+RetryWhen.swift"; sourceTree = "<group>"; };
+		4BA5120A322F68BCB8E8C8D992E656F9 /* DispatchTimerWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DispatchTimerWrapper.swift; path = Sources/Hydra/DispatchTimerWrapper.swift; sourceTree = "<group>"; };
+		4DFA166E75D3822D225A2FDE7D184C22 /* Pods-UITestProto-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UITestProto-acknowledgements.plist"; sourceTree = "<group>"; };
+		592F33B3F88A85B93F2A196E485B1CE5 /* Hydra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Hydra.framework; path = HydraAsync.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59E0CFCE6276630240EE07A92B8B4E64 /* Promise+Any.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Any.swift"; path = "Sources/Hydra/Promise+Any.swift"; sourceTree = "<group>"; };
+		5B2ED6839C9EF2577F117BB0CF1E21DA /* Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Promise.swift; path = Sources/Hydra/Promise.swift; sourceTree = "<group>"; };
+		5BC64B8540B10253072E438A21D85BB1 /* HydraAsync-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HydraAsync-Info.plist"; sourceTree = "<group>"; };
+		5D78D047E0CF61E7A8FE2C54F73BCE4C /* Pods_UITestProto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UITestProto.framework; path = "Pods-UITestProto.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E23D117DD1D449AA1842C4A315CD87E /* Pods-UITestProtoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UITestProtoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		631D326CD5BBB09906564CE13353247B /* Promise+Validate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Validate.swift"; path = "Sources/Hydra/Promise+Validate.swift"; sourceTree = "<group>"; };
+		675474EE2882968E4852E9A560D4E6AF /* HydraAsync-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HydraAsync-umbrella.h"; sourceTree = "<group>"; };
+		739763DA643650B0BEF0153A5FF37DA7 /* HydraAsync.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HydraAsync.xcconfig; sourceTree = "<group>"; };
+		77FD8C0C9B0CEA400BE0FABBC2F0C548 /* Promise+Reduce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Reduce.swift"; path = "Sources/Hydra/Promise+Reduce.swift"; sourceTree = "<group>"; };
+		7904FF0F6FF39A65A740EE1FECA78B77 /* Pods-UITestProto-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UITestProto-acknowledgements.markdown"; sourceTree = "<group>"; };
+		831C7A7B5B1DA7847705EE60732C7684 /* Promise+Zip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Zip.swift"; path = "Sources/Hydra/Promise+Zip.swift"; sourceTree = "<group>"; };
+		8488041745E2FC5AFEAE152DC53904E1 /* Pods-UITestProtoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UITestProtoUITests-dummy.m"; sourceTree = "<group>"; };
+		84DB8DB82BB6F2335E09F3B87193F3A0 /* Promise+Then.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Then.swift"; path = "Sources/Hydra/Promise+Then.swift"; sourceTree = "<group>"; };
+		88A0A9111A5C824874B1F39ABBB94DC7 /* Pods-UITestProtoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UITestProtoUITests-Info.plist"; sourceTree = "<group>"; };
+		89210B8908D0E38E5577FF71C6348426 /* Pods-UITestProtoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UITestProtoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		90E0763E7B788B742BCB3868CFD0914C /* HydraAsync-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HydraAsync-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A18E530AA99D847B830D3B76B5A4BE6F /* Pods-UITestProtoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UITestProtoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A6C065DEE5F80B55AA74DF40D032267F /* Promise+Map.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Map.swift"; path = "Sources/Hydra/Promise+Map.swift"; sourceTree = "<group>"; };
+		AC87FD4C2B27966295286278E8F5945E /* Promise+Recover.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Recover.swift"; path = "Sources/Hydra/Promise+Recover.swift"; sourceTree = "<group>"; };
+		ADEFC396D1193C7CFDA0E800FEF6A4C8 /* Pods-UITestProto-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UITestProto-dummy.m"; sourceTree = "<group>"; };
+		B41DAAF464518FCD3BFA949E953D4D44 /* Pods-UITestProtoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UITestProtoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B4CDB8FC58E5D34D89C0C1D4EF7F63A9 /* Promise+Async.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Async.swift"; path = "Sources/Hydra/Promise+Async.swift"; sourceTree = "<group>"; };
+		B5D06EE788C5008915159D58D97AA244 /* Pods-UITestProto-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UITestProto-Info.plist"; sourceTree = "<group>"; };
+		BBF13B1165C127AFA25E3694E3A553E3 /* Pods_UITestProtoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UITestProtoTests.framework; path = "Pods-UITestProtoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD278F45C4C9ADD47D2701F236AC0106 /* Promise+Observer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Observer.swift"; path = "Sources/Hydra/Promise+Observer.swift"; sourceTree = "<group>"; };
+		BEE049663A33EFB60DD355FAC8F16E80 /* Promise+Cancel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Cancel.swift"; path = "Sources/Hydra/Promise+Cancel.swift"; sourceTree = "<group>"; };
+		C3C1496831E88D8406822AAB662EA03A /* Pods-UITestProtoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UITestProtoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C52C5DE785FCCF1AADCCAF09AB318B1C /* Commons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Commons.swift; path = Sources/Hydra/Commons.swift; sourceTree = "<group>"; };
+		C6340F78D43EB6B15BF44C0E666D57F6 /* Pods-UITestProtoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UITestProtoUITests-umbrella.h"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CCB330F5210D33969A913A038C9ECFF7 /* Pods-UITestProtoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UITestProtoTests-umbrella.h"; sourceTree = "<group>"; };
+		D009912C34D4D776D9B377FCC6313B1F /* Pods-UITestProto-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UITestProto-umbrella.h"; sourceTree = "<group>"; };
+		D1B3B81AC7D6490BF098B15CD9C3AFC9 /* Promise+Always.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Always.swift"; path = "Sources/Hydra/Promise+Always.swift"; sourceTree = "<group>"; };
+		DE864215E171F5B2B9EE284B3D96F955 /* Pods-UITestProtoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UITestProtoUITests.modulemap"; sourceTree = "<group>"; };
+		E9EFE57AA8DC00315A9A18E5D01E6738 /* Pods-UITestProto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UITestProto.release.xcconfig"; sourceTree = "<group>"; };
+		EB33DDA65DCA3288A8C29D6560D616DE /* Pods-UITestProtoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UITestProtoTests-dummy.m"; sourceTree = "<group>"; };
+		F858203DCAEBFF0EED775B27071C60D3 /* Pods-UITestProtoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UITestProtoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FB866C9ED9F3AD7A85A3040495C3E2F2 /* Promise+Catch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Catch.swift"; path = "Sources/Hydra/Promise+Catch.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FCDBAD769219DB6A58C246933B74C5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C09F5684693B18506338560144942897 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16186682B1AAF30E7813CDC361B7873A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB6872BC0543E625C7F223E5FB6F165 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		405DFC08C1D86714C98B32AEA824FF27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15912A7A6689901C7F507D1B4BBD4CE4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4525D48022386B09BD016FF8737B26DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2621F38FD941D198E8262AA01ACFAA1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34AED805A72BE8DC95D5D82DA1D30399 /* Pods-UITestProto */ = {
+			isa = PBXGroup;
+			children = (
+				34F806635FE4D56C76760071473F3620 /* Pods-UITestProto.modulemap */,
+				7904FF0F6FF39A65A740EE1FECA78B77 /* Pods-UITestProto-acknowledgements.markdown */,
+				4DFA166E75D3822D225A2FDE7D184C22 /* Pods-UITestProto-acknowledgements.plist */,
+				ADEFC396D1193C7CFDA0E800FEF6A4C8 /* Pods-UITestProto-dummy.m */,
+				B5D06EE788C5008915159D58D97AA244 /* Pods-UITestProto-Info.plist */,
+				D009912C34D4D776D9B377FCC6313B1F /* Pods-UITestProto-umbrella.h */,
+				3E4B8FB5F459BE7BAEDC15028027E2CD /* Pods-UITestProto.debug.xcconfig */,
+				E9EFE57AA8DC00315A9A18E5D01E6738 /* Pods-UITestProto.release.xcconfig */,
+			);
+			name = "Pods-UITestProto";
+			path = "Target Support Files/Pods-UITestProto";
+			sourceTree = "<group>";
+		};
+		3FCA951C7ACB5B9769077D2A343D595B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99FED366933F07DE83F80855CB260565 /* HydraAsync */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		54F53DD1DAA0EE7DF6CEC4D79E2D3C98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				592F33B3F88A85B93F2A196E485B1CE5 /* Hydra.framework */,
+				5D78D047E0CF61E7A8FE2C54F73BCE4C /* Pods_UITestProto.framework */,
+				BBF13B1165C127AFA25E3694E3A553E3 /* Pods_UITestProtoTests.framework */,
+				002DB452B699817972536CF6FAB1A5B6 /* Pods_UITestProtoUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		892B867578FCDEE92E2C6ADFBFBB66E9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D726241B02E595D849721C4F0DACC65 /* HydraAsync.modulemap */,
+				739763DA643650B0BEF0153A5FF37DA7 /* HydraAsync.xcconfig */,
+				90E0763E7B788B742BCB3868CFD0914C /* HydraAsync-dummy.m */,
+				5BC64B8540B10253072E438A21D85BB1 /* HydraAsync-Info.plist */,
+				12F1C0B8268BC8792A450EB0808D1DF7 /* HydraAsync-prefix.pch */,
+				675474EE2882968E4852E9A560D4E6AF /* HydraAsync-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HydraAsync";
+			sourceTree = "<group>";
+		};
+		8D21E158C39BF0749B1466EA5DE0C243 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				34AED805A72BE8DC95D5D82DA1D30399 /* Pods-UITestProto */,
+				F303D86872F84FF9DE6BFF5756D56C4E /* Pods-UITestProtoTests */,
+				9055FBCD3C5035BA5B5D50599B5B7FFB /* Pods-UITestProtoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9055FBCD3C5035BA5B5D50599B5B7FFB /* Pods-UITestProtoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE864215E171F5B2B9EE284B3D96F955 /* Pods-UITestProtoUITests.modulemap */,
+				11C0C82A614487E809EF13B9086EDC0D /* Pods-UITestProtoUITests-acknowledgements.markdown */,
+				0820310A50353A1E52DB1E4E0C44526C /* Pods-UITestProtoUITests-acknowledgements.plist */,
+				8488041745E2FC5AFEAE152DC53904E1 /* Pods-UITestProtoUITests-dummy.m */,
+				5E23D117DD1D449AA1842C4A315CD87E /* Pods-UITestProtoUITests-frameworks.sh */,
+				88A0A9111A5C824874B1F39ABBB94DC7 /* Pods-UITestProtoUITests-Info.plist */,
+				C6340F78D43EB6B15BF44C0E666D57F6 /* Pods-UITestProtoUITests-umbrella.h */,
+				89210B8908D0E38E5577FF71C6348426 /* Pods-UITestProtoUITests.debug.xcconfig */,
+				B41DAAF464518FCD3BFA949E953D4D44 /* Pods-UITestProtoUITests.release.xcconfig */,
+			);
+			name = "Pods-UITestProtoUITests";
+			path = "Target Support Files/Pods-UITestProtoUITests";
+			sourceTree = "<group>";
+		};
+		99FED366933F07DE83F80855CB260565 /* HydraAsync */ = {
+			isa = PBXGroup;
+			children = (
+				C52C5DE785FCCF1AADCCAF09AB318B1C /* Commons.swift */,
+				3EE81AEA2A828EFC9C16443E1528A764 /* Context.swift */,
+				4BA5120A322F68BCB8E8C8D992E656F9 /* DispatchTimerWrapper.swift */,
+				5B2ED6839C9EF2577F117BB0CF1E21DA /* Promise.swift */,
+				0B6278AA035BF743D509514067A644E9 /* Promise+All.swift */,
+				D1B3B81AC7D6490BF098B15CD9C3AFC9 /* Promise+Always.swift */,
+				59E0CFCE6276630240EE07A92B8B4E64 /* Promise+Any.swift */,
+				B4CDB8FC58E5D34D89C0C1D4EF7F63A9 /* Promise+Async.swift */,
+				1417A6EAA27B2AC5654B830C7C830CD0 /* Promise+Await.swift */,
+				BEE049663A33EFB60DD355FAC8F16E80 /* Promise+Cancel.swift */,
+				FB866C9ED9F3AD7A85A3040495C3E2F2 /* Promise+Catch.swift */,
+				0359694837DD7A30D944E6FF0580A238 /* Promise+Defer.swift */,
+				A6C065DEE5F80B55AA74DF40D032267F /* Promise+Map.swift */,
+				BD278F45C4C9ADD47D2701F236AC0106 /* Promise+Observer.swift */,
+				211D40B16B14D53C7A8D1C826FDB1FA3 /* Promise+Pass.swift */,
+				AC87FD4C2B27966295286278E8F5945E /* Promise+Recover.swift */,
+				77FD8C0C9B0CEA400BE0FABBC2F0C548 /* Promise+Reduce.swift */,
+				00F906D8DFD574F3F730CFDCF1391F12 /* Promise+Retry.swift */,
+				49369C4A6DBF0904F7C430DD35FF436E /* Promise+RetryWhen.swift */,
+				350E0ADB1057528121FCA7F172DE596F /* Promise+State.swift */,
+				84DB8DB82BB6F2335E09F3B87193F3A0 /* Promise+Then.swift */,
+				21A6C10CEC12BABDD6A04F439A5A8BF4 /* Promise+Timeout.swift */,
+				631D326CD5BBB09906564CE13353247B /* Promise+Validate.swift */,
+				831C7A7B5B1DA7847705EE60732C7684 /* Promise+Zip.swift */,
+				892B867578FCDEE92E2C6ADFBFBB66E9 /* Support Files */,
+			);
+			name = HydraAsync;
+			path = HydraAsync;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				3FCA951C7ACB5B9769077D2A343D595B /* Pods */,
+				54F53DD1DAA0EE7DF6CEC4D79E2D3C98 /* Products */,
+				8D21E158C39BF0749B1466EA5DE0C243 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F303D86872F84FF9DE6BFF5756D56C4E /* Pods-UITestProtoTests */ = {
+			isa = PBXGroup;
+			children = (
+				04080B9136B8BCE0F71D0F802AEDA457 /* Pods-UITestProtoTests.modulemap */,
+				A18E530AA99D847B830D3B76B5A4BE6F /* Pods-UITestProtoTests-acknowledgements.markdown */,
+				F858203DCAEBFF0EED775B27071C60D3 /* Pods-UITestProtoTests-acknowledgements.plist */,
+				EB33DDA65DCA3288A8C29D6560D616DE /* Pods-UITestProtoTests-dummy.m */,
+				210AFDA9DE27BFB82E856D0F3FEA5E49 /* Pods-UITestProtoTests-Info.plist */,
+				CCB330F5210D33969A913A038C9ECFF7 /* Pods-UITestProtoTests-umbrella.h */,
+				C3C1496831E88D8406822AAB662EA03A /* Pods-UITestProtoTests.debug.xcconfig */,
+				2A95DC5312B5C82CCD3DBCCD822F89FF /* Pods-UITestProtoTests.release.xcconfig */,
+			);
+			name = "Pods-UITestProtoTests";
+			path = "Target Support Files/Pods-UITestProtoTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1A000F0DEB731FC757DDE0F8DAD5BC79 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7DBD336C13F357213C33168FC0207FC /* HydraAsync-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D3A83A8AFE6A57233850F78938DE5A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B386B8415D22DE2F8E4C83ECA4099DB8 /* Pods-UITestProtoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BF43D6C5D7E0B93FDF068386F55D8C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7742F0552842375A7A47EE7B617A242A /* Pods-UITestProto-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7C8DEB91FE39D662408D428EF28A665 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				155B5F881B82FD59C21A8ACEB20E373B /* Pods-UITestProtoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		29675FBD3E319BE023F30A728EBE1C7C /* HydraAsync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7806B268845AB5F21DD791F5CFD7C5B /* Build configuration list for PBXNativeTarget "HydraAsync" */;
+			buildPhases = (
+				1A000F0DEB731FC757DDE0F8DAD5BC79 /* Headers */,
+				CB37AAFCFDF3813058AF9774D04002CC /* Sources */,
+				0FCDBAD769219DB6A58C246933B74C5C /* Frameworks */,
+				5A4CE20A1BD2B47D9E2F4BD44D5A4B0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HydraAsync;
+			productName = HydraAsync;
+			productReference = 592F33B3F88A85B93F2A196E485B1CE5 /* Hydra.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		428D854B9D22B69B90D582FA2504C4AE /* Pods-UITestProto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40CF4FA0EB665454BE5A9A06F8AD79FB /* Build configuration list for PBXNativeTarget "Pods-UITestProto" */;
+			buildPhases = (
+				3BF43D6C5D7E0B93FDF068386F55D8C8 /* Headers */,
+				12327AFB984C4ADD368ED354F66855D4 /* Sources */,
+				16186682B1AAF30E7813CDC361B7873A /* Frameworks */,
+				AEDFF34844C5B5B0CD79A622AE4AC210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-UITestProto";
+			productName = "Pods-UITestProto";
+			productReference = 5D78D047E0CF61E7A8FE2C54F73BCE4C /* Pods_UITestProto.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A8E08E7901632FF8AA0DD6A9EC879343 /* Pods-UITestProtoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B8A1AEC6ACFCD6ED2070F5343F4BA2B /* Build configuration list for PBXNativeTarget "Pods-UITestProtoUITests" */;
+			buildPhases = (
+				1D3A83A8AFE6A57233850F78938DE5A5 /* Headers */,
+				7AE3419110900DAB8DAA7F00961CBECA /* Sources */,
+				405DFC08C1D86714C98B32AEA824FF27 /* Frameworks */,
+				C82BBAD1F83EFA2633015B47734B0D51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08723C29DF33CEC297B9D583DA77D8E4 /* PBXTargetDependency */,
+				AF8A4CFFBDA5B5D7131A38679D33A216 /* PBXTargetDependency */,
+			);
+			name = "Pods-UITestProtoUITests";
+			productName = "Pods-UITestProtoUITests";
+			productReference = 002DB452B699817972536CF6FAB1A5B6 /* Pods_UITestProtoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CE0CBB751F3F515596E60B1F9E1EB033 /* Pods-UITestProtoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20D90B11BE093E50A58DBA508D079D41 /* Build configuration list for PBXNativeTarget "Pods-UITestProtoTests" */;
+			buildPhases = (
+				F7C8DEB91FE39D662408D428EF28A665 /* Headers */,
+				A5C147FB75A922E9484EB5809891E107 /* Sources */,
+				4525D48022386B09BD016FF8737B26DE /* Frameworks */,
+				BDADDDE25398D4A7926A3A9FE067BB5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C35D8D79C8B188D772E8F7C55D5FC9F /* PBXTargetDependency */,
+			);
+			name = "Pods-UITestProtoTests";
+			productName = "Pods-UITestProtoTests";
+			productReference = BBF13B1165C127AFA25E3694E3A553E3 /* Pods_UITestProtoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 54F53DD1DAA0EE7DF6CEC4D79E2D3C98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29675FBD3E319BE023F30A728EBE1C7C /* HydraAsync */,
+				428D854B9D22B69B90D582FA2504C4AE /* Pods-UITestProto */,
+				CE0CBB751F3F515596E60B1F9E1EB033 /* Pods-UITestProtoTests */,
+				A8E08E7901632FF8AA0DD6A9EC879343 /* Pods-UITestProtoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A4CE20A1BD2B47D9E2F4BD44D5A4B0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEDFF34844C5B5B0CD79A622AE4AC210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDADDDE25398D4A7926A3A9FE067BB5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C82BBAD1F83EFA2633015B47734B0D51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12327AFB984C4ADD368ED354F66855D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F3B6D6557631E953AE2A46EAA84A9F /* Pods-UITestProto-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AE3419110900DAB8DAA7F00961CBECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7AF730B29A5833AC785E88579EEBC2F /* Pods-UITestProtoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5C147FB75A922E9484EB5809891E107 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3849348A3D0C632B4A034EA04A187B07 /* Pods-UITestProtoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB37AAFCFDF3813058AF9774D04002CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BECC37B16E40EEFD361D6A124A42DC98 /* Commons.swift in Sources */,
+				05B1F3163FE5EE4CC8056356D0BF11F3 /* Context.swift in Sources */,
+				FA8516189E10098F3727283D21CD4FCF /* DispatchTimerWrapper.swift in Sources */,
+				2EBCE5F3E6CE004E28EAF2977546B875 /* HydraAsync-dummy.m in Sources */,
+				7DF538DFC95CCF5E0B56AC5E3BBE6CEC /* Promise+All.swift in Sources */,
+				F0405BB5655BAB68047A3F438D59848B /* Promise+Always.swift in Sources */,
+				68796E917E660BA8AA9CA9F810AFC3DD /* Promise+Any.swift in Sources */,
+				0DC1CB9F0755C2A1D6911DF17C3A6E36 /* Promise+Async.swift in Sources */,
+				82AA1724E2BCA7AB6F3FB43954FA3450 /* Promise+Await.swift in Sources */,
+				268B68E43C4F8B9D4BE9614BBC663788 /* Promise+Cancel.swift in Sources */,
+				B325CC97626BDB353137EA8DC23AC4F2 /* Promise+Catch.swift in Sources */,
+				B777C92DB147644B573CA275F0215CFE /* Promise+Defer.swift in Sources */,
+				9359B1E1D5065AD3CAB3605E8C472358 /* Promise+Map.swift in Sources */,
+				62B7A7869032172C259707B3A57C4DEE /* Promise+Observer.swift in Sources */,
+				659121898B66A59135D9E8B7FB1CDDA3 /* Promise+Pass.swift in Sources */,
+				EC2C03CA64C4050B8FE9A68DF6DC3685 /* Promise+Recover.swift in Sources */,
+				014F5871171812774B581DC833F9F330 /* Promise+Reduce.swift in Sources */,
+				B15071810DC150F3175846108AB3B40B /* Promise+Retry.swift in Sources */,
+				60B7CD1F792C11E1D47E7A5CEE3C9627 /* Promise+RetryWhen.swift in Sources */,
+				1951EDBB4A7AC0CD3A14738A47573206 /* Promise+State.swift in Sources */,
+				1D3BDB4892A4B9B6C76277EE0C71BA46 /* Promise+Then.swift in Sources */,
+				05AC3EE77B649E57ED37198D8A83629F /* Promise+Timeout.swift in Sources */,
+				B21B2BEA5756263CBCFE2ECBD67D978C /* Promise+Validate.swift in Sources */,
+				3698E52693003FF0001979DFE0333434 /* Promise+Zip.swift in Sources */,
+				F84F770A93BF99172593ED784F59A722 /* Promise.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08723C29DF33CEC297B9D583DA77D8E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HydraAsync;
+			target = 29675FBD3E319BE023F30A728EBE1C7C /* HydraAsync */;
+			targetProxy = B719EB1915A39C7B6E4D835900A6AFA2 /* PBXContainerItemProxy */;
+		};
+		6C35D8D79C8B188D772E8F7C55D5FC9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UITestProto";
+			target = 428D854B9D22B69B90D582FA2504C4AE /* Pods-UITestProto */;
+			targetProxy = 2729F3139DA0464785B3E6DBE6F69233 /* PBXContainerItemProxy */;
+		};
+		AF8A4CFFBDA5B5D7131A38679D33A216 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UITestProto";
+			target = 428D854B9D22B69B90D582FA2504C4AE /* Pods-UITestProto */;
+			targetProxy = 3B1DF4D65E923CCD8699EB6882325A94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4E9B7AF0A22A203D84BF8458A1998592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89210B8908D0E38E5577FF71C6348426 /* Pods-UITestProtoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UITestProtoUITests/Pods-UITestProtoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UITestProtoUITests/Pods-UITestProtoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A2E8B704B72CC695F627238141E63CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 739763DA643650B0BEF0153A5FF37DA7 /* HydraAsync.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HydraAsync/HydraAsync-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HydraAsync/HydraAsync-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HydraAsync/HydraAsync.modulemap";
+				PRODUCT_MODULE_NAME = Hydra;
+				PRODUCT_NAME = Hydra;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6A983EF4DB01A8ECC2780937D2A3F727 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A95DC5312B5C82CCD3DBCCD822F89FF /* Pods-UITestProtoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UITestProtoTests/Pods-UITestProtoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UITestProtoTests/Pods-UITestProtoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8E21804A44863BC3D243E2EA7448FA0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E4B8FB5F459BE7BAEDC15028027E2CD /* Pods-UITestProto.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UITestProto/Pods-UITestProto-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UITestProto/Pods-UITestProto.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A75329635AF65E9871EFD7D279C30421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3C1496831E88D8406822AAB662EA03A /* Pods-UITestProtoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UITestProtoTests/Pods-UITestProtoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UITestProtoTests/Pods-UITestProtoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D34086575D7041182CC1EA32C3098C1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B41DAAF464518FCD3BFA949E953D4D44 /* Pods-UITestProtoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UITestProtoUITests/Pods-UITestProtoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UITestProtoUITests/Pods-UITestProtoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E6DB0047B859549ECADFFB09CC53B8AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 739763DA643650B0BEF0153A5FF37DA7 /* HydraAsync.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HydraAsync/HydraAsync-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HydraAsync/HydraAsync-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HydraAsync/HydraAsync.modulemap";
+				PRODUCT_MODULE_NAME = Hydra;
+				PRODUCT_NAME = Hydra;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E7D688F0D94474044F565122FAF5A516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9EFE57AA8DC00315A9A18E5D01E6738 /* Pods-UITestProto.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UITestProto/Pods-UITestProto-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UITestProto/Pods-UITestProto.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B8A1AEC6ACFCD6ED2070F5343F4BA2B /* Build configuration list for PBXNativeTarget "Pods-UITestProtoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E9B7AF0A22A203D84BF8458A1998592 /* Debug */,
+				D34086575D7041182CC1EA32C3098C1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20D90B11BE093E50A58DBA508D079D41 /* Build configuration list for PBXNativeTarget "Pods-UITestProtoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A75329635AF65E9871EFD7D279C30421 /* Debug */,
+				6A983EF4DB01A8ECC2780937D2A3F727 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40CF4FA0EB665454BE5A9A06F8AD79FB /* Build configuration list for PBXNativeTarget "Pods-UITestProto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E21804A44863BC3D243E2EA7448FA0B /* Debug */,
+				E7D688F0D94474044F565122FAF5A516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */,
+				84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7806B268845AB5F21DD791F5CFD7C5B /* Build configuration list for PBXNativeTarget "HydraAsync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6DB0047B859549ECADFFB09CC53B8AE /* Debug */,
+				6A2E8B704B72CC695F627238141E63CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

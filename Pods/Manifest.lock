@@ -1,0 +1,16 @@
+PODS:
+  - HydraAsync (2.0.0)
+
+DEPENDENCIES:
+  - HydraAsync
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - HydraAsync
+
+SPEC CHECKSUMS:
+  HydraAsync: bdb2fc2342dd7b74b5cd5fc919ef39d4e41fa46f
+
+PODFILE CHECKSUM: 0032aee754471c1b10926c3491a0641b503e4b07
+
+COCOAPODS: 1.6.1
